@@ -15,7 +15,6 @@ li {
 main {
     color: white;
     background-color: #24053E;
-    border-radius: 0% 0% 50% 50%;
 }
 
 header {
@@ -64,4 +63,8 @@ h1 {
     width: 768px;
     display: flex;
     justify-content: center;
+}
+
+.arondi1 {
+    width: 300%;
 }
