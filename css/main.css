@@ -3,8 +3,9 @@
     box-sizing: border-box;
 }
 
-img {
-    width: 4%;
+.logo {
+    width: 95.76px;
+    height: 24.61px;;
 }
 
 li {
@@ -13,10 +14,12 @@ li {
 
 main {
     color: white;
+    background-color: #24053E;
+    border-radius: 0% 0% 50% 50%;
 }
 
 header {
-    margin-top: 56px;
+    padding-top: 56px;
     margin-bottom: 56px;
     width: 80%;
     display: flex;
@@ -26,10 +29,6 @@ header {
     margin-right: auto;
 }
 
-body {
-    background-color: violet;
-}
-
 h1 {
     font-family: "Fraunces", serif;
 }
@@ -37,10 +36,32 @@ h1 {
 .title {
     margin-left: auto;
     margin-right: auto;
-    width: 635px;
-    background-color: blueviolet        ;
+    width: 635px;     ;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+}
+
+a {
+    font-size: 18px;
+    background-color: #44FFA1;
+    padding: 12px 32px 12px 32px;
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 80px;
+}
+
+.tel {
+    margin-top: 88px;
+    width: 768px;
+    display: flex;
+    justify-content: center;
 }
